@@ -10,12 +10,12 @@ ruleset=Domestic Services,clash-domain:https://ruleset.dev/clash_domestic_servic
 # 表示引用clash-domain类型的 https://ruleset.dev/clash_domestic_services_domains 规则
 # 规则更新间隔为86400秒
 # 且将此规则指向 [proxy_group] 所设置 Domestic Services 策略组
-ruleset=🎯 全球直连,rules/NobyDa/Surge/Download.list
+ruleset=🌎 全球直连,rules/NobyDa/Surge/Download.list
 # 表示引用本地 rules/NobyDa/Surge/Download.list 规则
-# 且将此规则指向 [proxy_group] 所设置 🎯 全球直连 策略组
-ruleset=🎯 全球直连,[]GEOIP,CN
+# 且将此规则指向 [proxy_group] 所设置 🌎 全球直连 策略组
+ruleset=🌎 全球直连,[]GEOIP,CN
 # 表示引用 GEOIP 中关于中国的所有 IP
-# 且将此规则指向 [proxy_group] 所设置 🎯 全球直连 策略组
+# 且将此规则指向 [proxy_group] 所设置 🌎 全球直连 策略组
 ruleset=!!import:snippets/rulesets.txt
 # 表示引用本地的snippets/rulesets.txt规则
 ```
