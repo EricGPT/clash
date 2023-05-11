@@ -3,7 +3,6 @@
 - 支持的type（类型）包括：surge, quanx, clash-domain, clash-ipcidr, clash-classic，type留空时默认为surge类型的规则
 - [] 前缀后的文字将被当作规则，而不是链接或路径，主要包含 []GEOIP 和 []MATCH(等同于 []FINAL)
 ```
-- 例如：
 ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
 # 表示引用 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list 规则
 # 且将此规则指向 [proxy_group] 所设置 🍎 苹果服务 策略组
