@@ -1,4 +1,4 @@
-# ruleset
+# 规则（ruleset）
 - 从本地或 url 获取规则片段，格式为 Group name,[type:]URL[,interval] 或 Group name,[]Rule
 - 支持的type（类型）包括：surge, quanx, clash-domain, clash-ipcidr, clash-classic，type留空时默认为surge类型的规则
 - [] 前缀后的文字将被当作规则，而不是链接或路径，主要包含 []GEOIP 和 []MATCH(等同于 []FINAL)
@@ -19,7 +19,7 @@ ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=!!import:snippets/rulesets.txt
 # 表示引用本地的snippets/rulesets.txt规则
 ```
-# custom_proxy_group
+# 策略组（custom_proxy_group）
 - 为 Clash 、Mellow 、Surge 以及 Surfboard 等程序创建策略组, 可用正则来筛选节点
 - [] 前缀后的文字将被当作引用策略组
 ```
